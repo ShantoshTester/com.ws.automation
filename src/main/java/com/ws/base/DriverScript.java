@@ -10,6 +10,13 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 
+/*
+ * Class: DriverScript
+ * Description: This class is responsible for managing all the driver instance across the project
+ * Developed By: shantosh@gmail.com
+ * Approved By: mellisa@gmail.com
+ */
+
 public class DriverScript {
 	
 	public static WebDriver driver;
