@@ -23,6 +23,11 @@ public class LoginPage extends DriverScript {
 	
 //***************************************** Page Actions/Methods *********************************** //
 	
+	public void clickForgotPasswordLink()
+	{
+		forgotPasswordLink.click();
+	}
+	
 	public void enterEmail(String email)
 	{
 		emailTextBox.sendKeys(email);
