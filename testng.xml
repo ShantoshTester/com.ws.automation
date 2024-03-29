@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.ws.testcase.TestLoginPage"/>
+      <class name="com.ws.testcase.TestPasswordRecoveryPage"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
