@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ws.base.DriverScript">
+      <class name="com.ws.testcase.TestLoginPage">
         <methods>
-          <include name="initApplication"/>
+          <include name="testLoginFunction"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUpReport"/>
         </methods>
-      </class> <!-- com.ws.base.DriverScript -->
+      </class> <!-- com.ws.testcase.TestLoginPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -10,7 +10,7 @@ public class LoginPage extends DriverScript {
 //***************************************** Page Elements ***************************************** //
 	
 	@FindBy(id = "Email") WebElement emailTextBox;
-	@FindBy(name = "Password") WebElement passwordTextBox;
+	@FindBy(name = "Password111") WebElement passwordTextBox;
 	@FindBy(xpath = "//input[@value='Log in']") WebElement loginButton;
 	@FindBy(linkText = "Forgot password?") WebElement forgotPasswordLink;
 	
