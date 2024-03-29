@@ -14,6 +14,7 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.ws.base.DriverScript;
 import com.ws.pages.HomePage;
 import com.ws.pages.LoginPage;
+import com.ws.pages.PasswordRecoverPage;
 import com.ws.utils.Helper;
 
 public class BaseTest extends DriverScript {
@@ -22,6 +23,7 @@ public class BaseTest extends DriverScript {
 	protected static ExtentReports report;
 	HomePage homePage;
 	LoginPage loginPage;
+	PasswordRecoverPage passwordRecoveryPage;
 	
 	@BeforeSuite
 	public void setUpReport()
@@ -37,6 +39,7 @@ public class BaseTest extends DriverScript {
 		initApplication();
 		homePage = new HomePage();
 		loginPage = new LoginPage();
+		passwordRecoveryPage = new PasswordRecoverPage();
 	}
 	
 	@AfterMethod
