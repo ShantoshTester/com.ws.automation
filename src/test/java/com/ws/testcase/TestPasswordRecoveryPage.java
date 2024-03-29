@@ -48,7 +48,7 @@ public class TestPasswordRecoveryPage extends BaseTest {
 		
 		String wrongEmailText = passwordRecoveryPage.getWrongEmailMsg();
 		System.out.println(wrongEmailText);
-		Assert.assertTrue(wrongEmailText.contains("Wrong"));
+		Assert.assertTrue(wrongEmailText.contains("Shantosh"));
 		logger.pass("verified the wrong email message successfully");
 	}
 	

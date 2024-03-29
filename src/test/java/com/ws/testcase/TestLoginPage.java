@@ -36,7 +36,7 @@ public class TestLoginPage extends BaseTest {
 		logger.pass("login successfull");
 	}
 	
-	@Test(priority = 3)
+	@Test(priority = 1)
 	public void testForgotPasswordDisplayed()
 	{
 		logger = report.createTest("Test Forgot password link is displayed");
